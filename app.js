@@ -16,7 +16,6 @@ var app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://admin:uGOCPRXszK3rUIOa@democluster.g8pclkx.mongodb.net/?retryWrites=true&w=majority&appName=democluster"
   )
   .then(() => console.log("Connected to DB"))
   .catch((err) => console.log(`Connection Error: ${err}`));
